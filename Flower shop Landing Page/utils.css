@@ -1,0 +1,87 @@
+@import "style.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display:flex;
+}
+
+.items-center{
+    align-items: center;
+    font-family:'Raleway', sans-serif;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: 900;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    margin-top: 0.7px;
+    margin-bottom: 20px;
+    font-family:'Raleway', sans-serif;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(227, 151, 209);
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(227, 151, 209);
+}
+
+.img{
+    margin: 4px 0 40px 40px;
+    height:20vh;
+}
+
+.img{
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/14/20/11/pink-324175__480.jpg");
+    background-size: cover;
+   
+}
+
+.text-center{
+    text-align:center;
+}
+
+
+
